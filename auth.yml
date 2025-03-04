@@ -7,8 +7,8 @@ spring:
         client:
           oidc-client:
             registration:
-              client-id: "spring"
-              client-secret: "spring"
+              client-id: "{noop}spring"
+              client-secret: "{noop}spring"
               client-authentication-methods:
                 - "client_secret_basic"
               authorization-grant-types:
