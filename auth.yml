@@ -1,5 +1,5 @@
 server:
-  port: 8282
+  port: 9090
 spring:
   security:
     oauth2:
