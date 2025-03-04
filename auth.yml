@@ -7,7 +7,7 @@ spring:
         client:
           oidc-client:
             registration:
-              client-id: "{noop}spring"
+              client-id: "spring"
               client-secret: "{noop}spring"
               client-authentication-methods:
                 - "client_secret_basic"
